@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lace_products",
+  "info": {
+    "singularName": "lace-product",
+    "pluralName": "lace-products",
+    "displayName": "LaceProduct",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LaceProductName": {
+      "type": "string"
+    },
+    "LaceProductPrice": {
+      "type": "integer"
+    },
+    "LaceProductImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "externalURL": {
+      "type": "blocks"
+    }
+  }
+}
