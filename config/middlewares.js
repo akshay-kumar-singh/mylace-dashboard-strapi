@@ -15,7 +15,13 @@ module.exports = [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['https://mylace.netlify.app', 'https://symphonious-hummingbird-0545e3.netlify.app'],
+    },
+  },
+  // 'strapi::cors',
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
