@@ -18,10 +18,11 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://mylace.netlify.app', 'https://symphonious-hummingbird-0545e3.netlify.app'],
+      enabled: true,
+      origin: ['https://mylace.netlify.app', 'https://symphonious-hummingbird-0545e3.netlify.app'], 
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     },
   },
-  // 'strapi::cors',
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
