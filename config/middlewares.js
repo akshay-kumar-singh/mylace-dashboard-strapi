@@ -19,7 +19,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['https://mylace.netlify.app', 'https://polite-gumdrop-3a0503.netlify.app'], 
+      origin: ['https://mylace.netlify.app', 'https://polite-gumdrop-3a0503.netlify.app', 'http://localhost:5173'],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     },
   },
